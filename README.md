@@ -1,4 +1,4 @@
-# Basic Website Architecture - Relative Linking
+# Basic Website Architecture
 
 ## Overview
 
