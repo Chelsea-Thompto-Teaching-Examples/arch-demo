@@ -1,8 +1,14 @@
-# Basic Website Architecture
+# Basic Website Architecture - Relative Linking
 
 ## Overview
 
 Basic website file architecture demo showing how to use folders and index.html files to create pages and sub pages on a site. The pages feature a basic navigation bar to link the pages and 3 pages contain a style sheet to show how to handle linking files between folders of different depths.
+
+## File/Folder Structure
+
+
+
+## Relative Linking
 
 This example relies on relative linking which uses the domain/location of a given file to orient links. Here is a summary of how relative linking functions:
 
