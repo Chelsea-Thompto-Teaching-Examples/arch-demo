@@ -8,24 +8,60 @@ This example relies on relative linking which uses the domain/location of a give
 
 ./(file name) --- stay here and, if provided, access (file name)
 
+---
+
 ../(file name) --- go up one folder and, if provided, access (file name)
+
+---
 
 ../../(file name) --- go up two folders and, if provided, access (file name)
 
+---
+
 ./assets/(file name) --- go to assets folder in this folder and, if provided, access (file name)
 
+---
+
 ../assets/(file name) --- go up one folder and then go into the assets folder there and, if provided, access (file name)
+
+---
 
 ../../assets/(file name) --- go up two folders and then go into the assets folder there and, if provided, access (file name)
 
 NOTE: If no file name is given, the browser will look for an index.html file within the folder.
 
-So, if we were on a site called https://www.linkexample.com/plants/flowers/ , the above items would take us to:
+So, if we were on a site called https://chelsea-thompto-teaching-examples.github.io/arch-demo/gallery/project-1/, the above items would take us to:
 
-https://www.linkexample.com/plants/flowers/
-https://www.linkexample.com/plants/
-https://www.linkexample.com/
-https://www.linkexample.com/plants/flowers/assets/
-https://www.linkexample.com/plants/assets/
-https://www.linkexample.com/assets/
+./
 
+https://chelsea-thompto-teaching-examples.github.io/arch-demo/gallery/project-1/
+
+---
+
+../
+
+https://chelsea-thompto-teaching-examples.github.io/arch-demo/gallery/
+
+---
+
+../../
+
+https://chelsea-thompto-teaching-examples.github.io/arch-demo/
+
+---
+
+./assets/
+
+https://chelsea-thompto-teaching-examples.github.io/arch-demo/gallery/project-1/assets/
+
+---
+
+../assets/
+
+https://chelsea-thompto-teaching-examples.github.io/arch-demo/gallery/assets/
+
+---
+
+../../assets/
+
+https://chelsea-thompto-teaching-examples.github.io/arch-demo/assets/
