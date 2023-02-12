@@ -6,7 +6,7 @@ Basic website file architecture demo showing how to use folders and index.html f
 
 ## File/Folder Structure
 
-
+For every webpage in this example, there is a folder containing and index.html file. For pages that are supposed to be within or under another page, like the project pages being under/within the gallery page, the folders are placed within the gallery page folder. 
 
 ## Relative Linking
 
